@@ -1,3 +1,5 @@
+
+# Author Ilya Bilyi
 import math
 RESPONCE="\t Що виконати?\n*******************************\n 1 додавання \n 2 Віднімання \n 3 Ділення \n 4 множення \n 5 до степеня\n 6 сінус \n 7 косинус \n 8 аргсінус \n 9 аргкосинус \n*******************************\n   "
 
@@ -16,13 +18,11 @@ while(flag == True):
         print("\nВведено літеру: {}! Ведіть цифру \n".format(variant))
         continue          
     
-    
     if variant in range(1,11):
         flag = False
     else:
         print("\nНекоректно введене значення: {} \n".format(variant))
         continue
-    
 flag2 = True       
 while(flag2 == True):
     first_number = input('Введіть число 1: ')

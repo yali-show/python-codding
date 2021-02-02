@@ -35,7 +35,7 @@ while(flag2 == True):
  
  
  
-if variant in range(1,7):              
+if variant in range(1,6):              
     flag3 = True
     while(flag3 == True):
        second_number = input('Введіть число 2: ')
